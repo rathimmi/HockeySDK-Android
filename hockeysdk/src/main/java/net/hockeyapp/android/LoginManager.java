@@ -55,7 +55,7 @@ public class LoginManager {
      */
     static LoginManagerListener listener;
 
-    **
+    /**
      * Email that is passed to login manager
      */
     private static String emailID = null;
@@ -176,7 +176,7 @@ public class LoginManager {
         }
     }
     
-    **
+    /**
      * Checks the authentication status. If not authenticated authenticates using the email Provided
      * If the user has authenticated before, the SDK will not check for authorization again or validate the user's
      * access to the app. In case of emailID change authentication will be performed again, it will verify if the user
